@@ -134,15 +134,3 @@ The project includes `flutter_lints` in `dev_dependencies` and an `analysis_opti
 6. Open a Pull Request and describe the change
 
 Please keep changes small and focused. If you plan to add or change API contracts, update `lib/config/app_config.dart` and add clear migration notes.
-
-## Commit & push updated README (example)
-
-```powershell
-git add README.md
-git commit -m "docs: add professional README"
-git push origin master
-```
-
-## License
-
-Add a LICENSE file to this repository to declare usage terms. If you don't have a preferred license, consider the MIT License for open-source projects.
