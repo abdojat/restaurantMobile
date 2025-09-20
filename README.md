@@ -146,23 +146,3 @@ git push origin master
 ## License
 
 Add a LICENSE file to this repository to declare usage terms. If you don't have a preferred license, consider the MIT License for open-source projects.
-
----
-
-If you'd like, I can:
-
-- Add screenshots into the README and wire them to the existing assets
-- Create a short CONTRIBUTING.md and CODE_OF_CONDUCT.md
-- Add CI steps for Flutter analyze/test on GitHub Actions
-
-Tell me which follow-up you'd like next and I'll proceed.
-
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
