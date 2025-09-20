@@ -111,7 +111,7 @@ class ApiService {
                   description: json['description'],
                   descriptionAr: json['description_ar'],
                   imageUrl: json['image_path'] != null
-                      ? '${AppConfig.imageUrl}/${json['image_path']}'
+                      ? '${json['image_path']}'
                       : 'images/placeholder.jpg',
                   price: _parsePrice(json['discounted_price']) != 0
                       ? _parsePrice(json['discounted_price'])
@@ -160,7 +160,7 @@ class ApiService {
                   description: json['description'],
                   descriptionAr: json['description_ar'],
                   imageUrl: json['image_path'] != null
-                      ? '${AppConfig.imageUrl}/${json['image_path']}'
+                      ? '${json['image_path']}'
                       : 'images/placeholder.jpg',
                   price: _parsePrice(json['price']),
                   rating: (json['average_rating'] ?? 4.0).toDouble(),

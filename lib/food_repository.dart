@@ -65,7 +65,7 @@ class FoodRepository {
               description: dish['description'],
               descriptionAr: dish['description_ar'],
               imageUrl: dish['image_path'] != null
-                  ? '${AppConfig.imageUrl}/${dish['image_path']}'
+                  ? '${dish['image_path']}'
                   : '',
               price: (double.tryParse(dish['price']?.toString() ?? '0') ?? 0.0)
                   .round(),

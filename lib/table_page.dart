@@ -272,7 +272,7 @@ class _TablePageState extends State<TablePage> with LocalizationMixin {
             children: [
               Positioned.fill(
                 child: Image.network(
-                    '${AppConfig.imageUrl}/${table.image}',
+                    '${table.image}',
                     fit: BoxFit.cover),
               ),
               Positioned.fill(
